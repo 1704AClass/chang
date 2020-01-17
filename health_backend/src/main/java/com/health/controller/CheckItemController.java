@@ -18,7 +18,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/checkitem")
 public class CheckItemController {
-
+//A
     @Reference 
     private CheckItemService checkItemService;
 
