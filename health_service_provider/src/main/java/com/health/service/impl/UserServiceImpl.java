@@ -14,7 +14,6 @@ public class UserServiceImpl implements UserService{
 	UserMapper userMapper;
 	@Override
 	public List<User> list() {
-		// TODO Auto-generated method stub
 		return userMapper.list();
 	}
 
